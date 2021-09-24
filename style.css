@@ -1,0 +1,56 @@
+body{
+    background-image: url("MAIN BG.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#show_sketch{
+    margin-left: 150px;
+    font-size: medium;
+}
+
+#title{
+    margin-left: 320px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: rgb(6, 6, 71);
+}
+
+#sketch{
+    margin: 20px;
+}
+
+#confidence{
+    margin: 20px;
+}
+
+#question{
+    margin: 20px;
+}
+
+#score, #heading, #score{
+    float: left;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#clearCanvas{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px grey;};
+    from{box-shadow: 1px 1px 38px white;};
+}
